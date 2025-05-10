@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guarda Treco</title>
+    <link rel="icon" type="image/png" href="/assets/logo.png">
+</head>
+<body>
+    <a href="/paginas/home.html">
+        <img src="/assets/logo.png" width="20"> Guarda Treco
+    </a>
+    <br>
+    <a href="index.html">Voltar</a>
+    <form action="index.html" method="get">
+
+        <div>
+            <label for="campo-nome">Nome</label>
+            <input type="text" id="campo-nome" minlength="3" required maxlength="20">
+        </div>
+
+        <div>
+            <label for="campo-CNPJ">CNPJ</label>
+            <input type="text" id="campo-CNPJ" minlength="11" required maxlength="11">
+        </div>
+
+        <div>
+            <type="select" for="Estado">Escolha o estado:
+
+            <select name="Estado" id="Estado">
+                <option value="">SC</option>
+                <option value="">RJ</option>
+                <option value="">SP</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="campo-cidade">Cidade</label>
+            <input type="text" id="campo-cidade" minlength="10" required maxlength="10">
+        </div>
+
+        <div>
+            <label for="campo-bairro">Bairro</label>
+            <input type="text" id="campo-bairro" minlength="10" required maxlength="10">
+        </div>
+
+        <div>
+            <label for="campo-CEP">CEP</label>
+            <input type="text" id="campo-CEP" minlength="10" required maxlength="10">
+        </div>
+
+        <div>
+            <label for="campo-Numero">Numero</label>
+            <input type="text" id="campo-Numero" minlength="10" required maxlength="10">
+        </div>
+
+        <div>
+            <label for="campo-logradouro">Logradouro</label>
+            <input type="text" id="campo-Logradouro" minlength="10" required maxlength="10">
+        </div>
+
+        <div>
+            <label for="complemento">Complemento</label>
+            <textarea id="complemento" name="complemento" rows="5" cols="50">
+                Adicione complemento
+            </textarea>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
+</html>
